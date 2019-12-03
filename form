@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <head>
+<base target="_top">
+    <style>
+    body{
+    background-color: lightblue;  
+    padding:10px;
+    }
+    #container{
+    width:40%;
+    height:auto;
+    display:block;
+    margin:auto;
+    background-color:white;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding:20px;
+    }
+    #conNumber{
+    width:90%;
+    border:1px solid #EAEAEA;
+    padding:20px;
+    font-size:15px;
+    display:block;
+    margin:auto;
+    border-radius:5px;
+    }
+    #submit{
+    width:97%;
+    color: white;
+    background-color: #0AA74C;
+    border:1px solid #EAEAEA;
+    padding:20px;
+    font-size:20px;
+    display:block;
+    margin:auto;
+    border-radius:5px;
+    margin-top: 20px;
+    font-weight: bold
+  }
+
+    
+   @media only screen and (max-width: 768px) {
+   #container{
+    width:90%;}
+     }
+    </style>
+    
+  </head>
+  
+  <body>
+  <div id="container">
+ <form>
+  <input type="text" id="conNumber" placeholder="Enter Consignment ID">
+  <input type="submit" id="submit" value="SUBMIT">
+ </form> 
+ 
+ </div>
+  </body>
+</html>
